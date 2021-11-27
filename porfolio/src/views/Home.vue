@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <navbar  id="nav"/>
+    <navbar id="nav" />
   </div>
 </template>
 
@@ -14,19 +14,4 @@ export default {
     Navbar,
   },
 };
-
-new Vue({
-  el:'#nav',
-
-   data: {
-  	open: false,
-  },
-  methods: {
-  	toggle() {
-    	this.open = !this.open
-    }
-  }
-
-})
-
 </script>
